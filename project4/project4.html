@@ -8,8 +8,8 @@
 
 <nav>
 <a href="../index.html">Back to Home</a>
-<a href="project2.html">Project 2</a>
-<a href="project3.html">Project 3</a>
+<a href="../html/project2.html">Project 2</a>
+<a href="../html/project3.html">Project 3</a>
 <a href="../project4/project4.html">Project 4</a>
 </nav>
 <hr>
@@ -37,7 +37,7 @@
 
 <br>
 
-<p class="center">Here are some of the top players in the NBA:</p>
+<h2 class="center">Here are some of the top players in the NBA:</h2>
 <table>
     <tr>
         <th>Player</th>
@@ -60,7 +60,24 @@
         <td>Small Forward</td>
     </tr>
 </table>
+
+<section id="greeting-section">
+    <h2>Interaction</h2>
+
+    <form id="nameForm">
+        <label for="username">Enter your name:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="message"></p>
+</section>
+
+<script src="script.js"></script>
+
+
 </main>
+
 
 </body>
 </html>

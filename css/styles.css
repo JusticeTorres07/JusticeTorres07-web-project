@@ -60,3 +60,48 @@ th, td {
 .durant {
     color: black;
 }
+
+#greeting-section {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+}
+
+form {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .main-img {
+        width: 100%;
+        height: auto;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
