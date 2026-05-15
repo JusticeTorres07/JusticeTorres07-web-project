@@ -92,13 +92,14 @@ button {
 
 @media screen and (max-width: 768px) {
     nav a {
-        display: block;
-        margin: 10px 0;
+        display: block !important;
+        margin: 10px 0 !important;
     }
 
     .main-img {
-        width: 100%;
-        height: auto;
+        width: 100% !important;
+        max-width: 90% !important;
+        height: auto !important;
     }
 
     body {
